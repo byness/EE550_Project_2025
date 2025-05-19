@@ -1,0 +1,55 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+*.egg-info/
+
+# Logs and debug
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OpenCV and model files (do not commit large pretrained files)
+*.weights
+*.cfg
+*.caffemodel
+*.prototxt
+*.onnx
+*.tflite
+*.pb
+
+# COCO or VOC class label files
+coco.names
+*.txt
+
+# Image and video outputs
+*.jpg
+*.png
+*.avi
+*.mp4
+
+# PiCamera2 artifacts
+~picamera2*
+*.h264
+
+# CSV or log outputs (optional)
+*.csv
+
+# Backup or temp files
+*~
+*.bak
+*.swp
+*.tmp
